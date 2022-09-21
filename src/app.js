@@ -28,6 +28,5 @@ app.set('views', path.join(__dirname, 'resources\\views'))
 
 // Route init
 route(app)
-
-
-app.listen(process.env.PORT || port, () => console.log(`Localhost:${port} running`))
+console.log('added route')
+app.listen(process.env.PORT || port, () => console.log('listen request'))
