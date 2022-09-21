@@ -1,5 +1,5 @@
 const express = require('express')
-const morgan = require('morgan')
+// const morgan = require('morgan')
 const ejs = require('ejs')
 const app = express()
 const port = 2108
@@ -20,7 +20,7 @@ app.use(express.urlencoded({
 app.use(express.json())
 
 //HTTP logger
-app.use(morgan('combined'))
+// app.use(morgan('combined'))
 
 //Template engine
 app.set('view engine', 'ejs')
