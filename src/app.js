@@ -5,7 +5,7 @@ const app = express()
 const port = 2108
 const path = require('path')
 
-const route = require('./routes')
+const route = require('./routes/index')
 const database = require('./config/database/mongooseDB')
 
 database.connect()
