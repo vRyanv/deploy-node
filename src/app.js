@@ -24,7 +24,7 @@ app.use(express.json())
 
 //Template engine
 app.set('view engine', 'ejs')
-app.set('views', path.join(__dirname, 'resources\\views'))
+app.set('views', path.join(__dirname, 'resources/views'))
 
 // Route init
 route(app)
